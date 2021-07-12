@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    image: erivelto/imersao-full-cycle-second-challenge-backend
+    ports:
+      - "3000:3000"
+  frontend:
+    image: erivelto/imersao-full-cycle-second-challenge-frontend
+    ports:
+      - "3001:80"
